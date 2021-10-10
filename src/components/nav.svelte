@@ -1,12 +1,20 @@
 <script>
-
+    let gradelystars;
+    getGradelyStars()
+ async function  getGradelyStars(){
+    let response = (await fetch("https://api.github.com/repos/generalxhd/gradely2")).json()
+  gradelystars = (await response)["stargazers_count"]
+}
 </script>
 <nav class="navbar navbar-light">
     <a class="navbar-brand" href="https://gradelyapp.com">
       <img src="/img/gradely2logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
      Gradely 2
     </a>
+    <div>
     <a href="#download">Download</a>
+    <a href="https://github.com/generalxhd/gradely2"> <i class="fab fa-github fa-lg"></i> <id class="d-none d-sm-none d-md-inline small"> {gradelystars} ☆</id> </a>
+    </div>
   </nav>
 
 <style>

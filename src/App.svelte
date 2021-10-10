@@ -6,6 +6,8 @@
 		"/": Home,
 		// "*": NotFound,
 	};
+	import Footer from "./components/footer.svelte"
 </script>
 <Header/>
 <Router {routes} />
+<Footer/>
