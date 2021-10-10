@@ -13,7 +13,7 @@
     </a>
     <div>
     <a href="#download">Download</a>
-    <a href="https://github.com/generalxhd/gradely2"> <i class="fab fa-github fa-lg"></i> <id class="d-none d-sm-none d-md-inline small"> {gradelystars} ☆</id> </a>
+    <a target="_blank" href="https://github.com/generalxhd/gradely2"> <i class="fab fa-github fa-lg"></i> <id class="d-none d-sm-none d-md-inline small"> {gradelystars} ☆</id> </a>
     </div>
   </nav>
 

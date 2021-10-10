@@ -45,8 +45,11 @@
                 <div>
                     <p><i class="fab fa-apple" /> iOS & iPadOS</p>
                     <p><i class="fab fa-apple" /> MacOS</p>
-                    <p><i class="fab fa-windows" /> Windows (Beta)</p>
                     <p><i class="fab fa-android" /> Android</p>
+                    <p><i class="fab fa-firefox" /> Web app (Beta)</p>
+                    <p><i class="fab fa-windows" /> Windows (Beta)</p>
+          
+                   
                 </div>
             </div>
         </div>
@@ -56,9 +59,11 @@
     <div class="row text-center d-flex justify-content-center mt-10 pb-10">
         <h2 class="mb-5">Download</h2>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> iOS</a>
-        <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://play.google.com/store/apps/details?id=com.eliasschneider.gradely2"><i class="fab fa-android" /> Android</a>
         <a class="btn btn-primary  col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> MacOS</a>
+        <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://play.google.com/store/apps/details?id=com.eliasschneider.gradely2"><i class="fab fa-android" /> Android</a>
+        <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://app.gradelyapp.com"><i class="fab fa-firefox" /> Web app</a>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://www.microsoft.com/store/apps/9MW4FPN80D7D"><i class="fab fa-windows" /> Windows</a>
+       
     </div>
 
 </section>
