@@ -7,9 +7,9 @@
 }
 </script>
 <nav class="navbar navbar-light">
-    <a class="navbar-brand" href="https://gradelyapp.com">
+    <a class="navbar-brand" href="/">
       <img src="/img/gradely2logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
-     Gradely 2
+    <e class="d-none d-sm-inline d-md-inline">Gradely 2</e> 
     </a>
     <div>
     <a href="#download">Download</a>
@@ -32,8 +32,5 @@
         font-size: 15px;
         margin: 8px;
     }
-    nav{
-margin: -8px;
-        
-    }
+
 </style>

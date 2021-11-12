@@ -4,7 +4,9 @@
 </script>
 
 <div class="row text-center d-flex justify-content-center mt-5">
-    <img class="logo col-12" src="/img/gradely2logo.png" alt="" />
+    <div class="col-12">
+        <img class="logo img-fluid" src="/img/gradely2logo.png" alt="" />
+    </div>
     <h1 class="col-12">Gradely 2</h1>
     <h5 class="col-12 mt-3 mb-5">Your Grades across all your devices ☁️.</h5>
     <p class="w-auto">
@@ -15,13 +17,15 @@
 </div>
 
 <section class="mt-10">
-    <div class="row text-center d-flex justify-content-center mt-5 d-none d-sm-none d-md-flex">
-        <img
+    <div class="row text-center justify-content-center mt-5 d-none d-sm-none d-md-flex">
+        <div class="col-6">
+            <img
             style="width: 300px;"
-            class="col-6"
             src="/img/gradely-home-iphone.png"
             alt=""
         />
+        </div>
+
 
         <div class="col-12 col-md-6">
             <h3 class="mb-3 mt-3">Features</h3>
@@ -57,7 +61,7 @@
 </section>
 <section id="download">
     <div class="row text-center d-flex justify-content-center mt-10 pb-10">
-        <h2 class="mb-5">Download</h2>
+        <h2 class="mb-5 col-12">Download</h2>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> iOS</a>
         <a class="btn btn-primary  col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> MacOS</a>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://play.google.com/store/apps/details?id=com.eliasschneider.gradely2"><i class="fab fa-android" /> Android</a>
@@ -71,6 +75,10 @@
 
 
 <style>
+    h1{
+	font-size: 5rem !important;
+}
+
 .pb-10{
     padding-bottom: 10rem;
 }
@@ -101,7 +109,8 @@
         margin: 0px;
     }
     .logo {
-        width: 200px;
+        width: 200px !important;
+
     }
     @media screen and (max-width: 780px) {
         .mt-10 {
