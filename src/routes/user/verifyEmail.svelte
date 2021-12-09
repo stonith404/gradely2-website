@@ -29,7 +29,6 @@
 	{#if value == 'success'}
 		<i class="far fa-check-circle icon" />
 		<p class="mb-2">Your email is verified</p>
-		<a class="button btn btn-secondary t-5" href="gradely2://">Open app</a>
 	{:else if userId == undefined || secret == undefined}
 		<i class="far fa-times-circle icon fa-5x" />
 		<p>Invalid link, try again.</p>

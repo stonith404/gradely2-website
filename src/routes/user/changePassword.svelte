@@ -53,7 +53,6 @@
 {:else if status == 'success'}
 	<i class="far fa-check-circle icon" />
 	<p>Your password was changed successfully.</p>
-	<a class="button btn-secondary mt-3" href="gradely2://">Open app</a>
 {:else}
 	<i class="far fa-times-circle icon" />
 	<p>{status}</p>
