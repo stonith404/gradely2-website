@@ -1,8 +1,12 @@
 <script>
-    import Nav from "./home/components/nav.svelte"
-    import Footer from "./home/components/footer.svelte"
+    import Nav from "../components/nav.svelte"
+    import Footer from "../components/footer.svelte"
 </script>
-<link rel="stylesheet" href="/global.css">
+
+<svelte:head>
+	<title>Gradely 2</title>
+</svelte:head>
+
 <Nav/>
 <div class="mx-3">
     <slot />
