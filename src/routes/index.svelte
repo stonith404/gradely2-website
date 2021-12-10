@@ -61,7 +61,7 @@
 </section>
 <section id="download">
     <div class="row text-center d-flex justify-content-center mt-10 pb-10">
-        <h2 class="mb-5 col-12">Download</h2>
+        <h2 class="mb-5 col-12">Downloads</h2>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> iOS</a>
         <a class="btn btn-primary  col-lg-1 col-md-2 col-5 mb-1" href="https://apps.apple.com/us/app/gradely-2-grade-calculator/id1578749974"><i class="fab fa-apple" /> MacOS</a>
         <a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://play.google.com/store/apps/details?id=com.eliasschneider.gradely2"><i class="fab fa-android" /> Android</a>
