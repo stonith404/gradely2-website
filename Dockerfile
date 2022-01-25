@@ -9,6 +9,7 @@ FROM node:14-alpine
 WORKDIR /usr/src/app
 COPY --from=builder package.json  .
 COPY --from=builder build  ./
+RUN ["npm", "install"]
 
 ENV PORT=80
 EXPOSE 80
