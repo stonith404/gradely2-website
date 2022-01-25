@@ -32,19 +32,30 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarText">
 			<div class="navbar-text">
-				<a href="#download">Download</a>
-				<a href="https://status.gradelyapp.com">Status</a>
-				<a target="_blank" href="https://github.com/generalxhd/gradely2">
-					<a href="/home/contact">Contact</a>
-					<i class="fab fa-github fa-lg" />
-					<id class="d-none d-sm-none d-md-inline small"> {gradelystars ?? '...'} ☆</id>
-				</a>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="#download">Download</a></li>
+					<li class="nav-item"><a href="https://status.gradelyapp.com">Status</a></li>
+					<li class="nav-item">
+						<a target="_blank" href="https://github.com/generalxhd/gradely2">
+							<a href="/home/contact">Contact</a>
+							<i class="fab fa-github fa-lg" />
+							<id class="d-none d-sm-none d-md-inline small"> {gradelystars ?? '...'} ☆</id>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </nav>
 
 <style>
+	.navbar-toggler {
+		position: absolute;
+		right: 0px;
+		top: 30px;
+		background-color: transparent !important;
+		border: none;
+	}
 	.navbar-expand-lg {
 		justify-content: space-between;
 	}
