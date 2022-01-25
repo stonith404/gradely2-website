@@ -2,6 +2,10 @@
 	import Header from './components/header.svelte';
 </script>
 
+<svelte:head>
+	<title>Gradely 2 - User Service</title>
+</svelte:head>
+
 <link rel="stylesheet" href="/global.css" />
 <div class="body">
 	<Header />
