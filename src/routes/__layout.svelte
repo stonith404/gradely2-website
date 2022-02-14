@@ -1,18 +1,20 @@
 <script>
-    import Nav from "../components/nav.svelte"
-    import Footer from "../components/footer.svelte"
+	import Nav from '../components/nav.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
+
 <svelte:head>
 	<title>Gradely 2</title>
 </svelte:head>
-<link rel="stylesheet" href="/global.css">
+<link rel="stylesheet" href="/global.css" />
 <div class="mx-3 main">
-<Nav/>
-    <slot />
+	<Nav />
+	<slot />
 </div>
-<Footer/>
+<Footer />
+
 <style>
-    .main{
-        min-height: 100% !important;
-    }
+	.main {
+		min-height: 100% !important;
+	}
 </style>

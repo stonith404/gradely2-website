@@ -1,5 +1,5 @@
-<script>
-	let gradelystars;
+<script lang="ts">
+	let gradelystars : string;
 	(async () => {
 		gradelystars = (await (await fetch('https://api.github.com/repos/generalxhd/gradely2')).json())[
 			'stargazers_count'

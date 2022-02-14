@@ -1,9 +1,8 @@
 <script lang="ts">
 	import Loading from './components/loading.svelte';
 	import { sdk } from '../../global';
-	import { onMount } from 'svelte';
-	let userId;
-	let secret;
+	let userId: string;
+	let secret: string;
 
 	async function verifyEmail() {
 		const UrlParams = new URLSearchParams(window.location.search);

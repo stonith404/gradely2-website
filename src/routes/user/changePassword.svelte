@@ -1,13 +1,12 @@
 <script lang="ts">
-	import Loading from './components/loading.svelte';
 	import { sdk } from '../../global';
 	import { onMount } from 'svelte';
 
 	let password = '';
 	let password2 = '';
 	let status = '';
-	let secret;
-	let userId;
+	let secret: string;
+	let userId: string;
 	onMount(() => {
 		const UrlParams = new URLSearchParams(window.location.search);
 		userId = UrlParams.get('userId');

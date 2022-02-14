@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { sdk } from '../../global';
 
 	let email = '';
