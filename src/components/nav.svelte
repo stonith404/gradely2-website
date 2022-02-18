@@ -1,7 +1,7 @@
 <script lang="ts">
-	let gradelystars : string;
+	let gradelystars: string;
 	(async () => {
-		gradelystars = (await (await fetch('https://api.github.com/repos/generalxhd/gradely2')).json())[
+		gradelystars = (await (await fetch('https://api.github.com/repos/stonith404/gradely2')).json())[
 			'stargazers_count'
 		];
 	})();
@@ -36,7 +36,7 @@
 					<li class="nav-item"><a href="#download">Download</a></li>
 					<li class="nav-item"><a href="https://status.gradelyapp.com">Status</a></li>
 					<li class="nav-item">
-						<a target="_blank" href="https://github.com/generalxhd/gradely2">
+						<a target="_blank" href="https://github.com/stonith404/gradely2">
 							<a href="/home/contact">Contact</a>
 							<i class="fab fa-github fa-lg" />
 							<id class="d-none d-sm-none d-md-inline small"> {gradelystars ?? '...'} ☆</id>
