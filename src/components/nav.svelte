@@ -34,10 +34,14 @@
 			<div class="navbar-text">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a href="#download">Download</a></li>
-					<li class="nav-item"><a href="https://status.gradelyapp.com">Status</a></li>
 					<li class="nav-item">
-						<a target="_blank" href="https://github.com/stonith404/gradely2">
-							<a href="/home/contact">Contact</a>
+						<a href="https://status.eliasschneider.com/status/gradely2">Status</a>
+					</li>
+					<li class="nav-item">
+						<a href="mailto:elias@eliasschneider.com">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://github.com/stonith404/gradely2">
 							<i class="fab fa-github fa-lg" />
 							<id class="d-none d-sm-none d-md-inline small"> {gradelystars ?? '...'} ☆</id>
 						</a>
