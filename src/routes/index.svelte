@@ -40,8 +40,7 @@
 					<p><i class="fab fa-apple" /> iOS & iPadOS</p>
 					<p><i class="fab fa-apple" /> MacOS</p>
 					<p><i class="fab fa-android" /> Android</p>
-					<p><i class="fab fa-firefox" /> Web app (Beta)</p>
-					<p><i class="fab fa-windows" /> Windows (Beta)</p>
+					<p><i class="fab fa-windows" /> Windows</p>
 				</div>
 			</div>
 		</div>
@@ -64,9 +63,6 @@
 			class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1"
 			href="https://play.google.com/store/apps/details?id=com.eliasschneider.gradely2"
 			><i class="fab fa-android" /> Android</a
-		>
-		<a class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1" href="https://app.gradelyapp.com"
-			><i class="fab fa-firefox" /> Web app</a
 		>
 		<a
 			class="btn btn-primary col-lg-1 col-md-2 col-5 mb-1"
