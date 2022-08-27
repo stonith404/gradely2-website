@@ -1,6 +1,6 @@
 FROM node:alpine as builder
 
-COPY package.json ./
+COPY package.json package-lock.json ./
 RUN ["npm", "install"]
 COPY . ./
 RUN [ "npm","run","build"]
